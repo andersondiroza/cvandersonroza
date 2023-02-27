@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #152039;
+  background-image: linear-gradient(to top, white, #045A8B);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+table {
+  margin: auto;
+}
+
+th,
+td {
+  padding: 6px;
+}
+
+tbody tr:nth-child(even) {
+  /*background-image: linear-gradient(to bottom, white, #ff66c4);*/
+  background-image: linear-gradient(to bottom, white, #045A8B);
+}
+
+tbody tr:hover {
+  font-weight: bold;
+  cursor: default;
+}
+
+.title {
+  color: #152039;
+}
+
+.author {
+  text-align: left;
+  font-style: italic;
+}
